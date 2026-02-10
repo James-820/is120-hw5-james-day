@@ -11,7 +11,7 @@
   max-width: 25rem;
   border-radius: 1rem;
   background-color: lightgray;
-  box-shadow: -0.25rem 0.25rem 0.5rem darkgray;
+  display: inline-block;
 }
 
 .card :not(.card-img) {
@@ -56,4 +56,22 @@
 .card-button:active {
   background-color: green;
   border-color: green;
+}
+
+/* Unique card */
+
+#first-card .card-button {
+  color: darkred;
+  border-color: darkred;
+}
+
+#first-card .card-button:hover {
+  background-color: darkred;
+  color: white;
+}
+
+#first-card .card-button:active {
+  background-color: pink;
+  border-color: pink;
+  color: black;
 }
