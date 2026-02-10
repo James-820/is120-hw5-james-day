@@ -1,0 +1,59 @@
+/* General Formatting */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card formatting */
+
+.card {
+  max-width: 25rem;
+  border-radius: 1rem;
+  background-color: lightgray;
+  box-shadow: -0.25rem 0.25rem 0.5rem darkgray;
+}
+
+.card :not(.card-img) {
+  margin: 0.5rem;
+}
+
+/* Image */
+
+.card-img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+/* Title */
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Text */
+
+/* Button */
+
+.card-button {
+  padding: 0.5rem;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border: 0.25rem solid black;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.card-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.card-button:active {
+  background-color: green;
+  border-color: green;
+}
